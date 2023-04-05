@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5adde56b.css",
+    "main.js": "/static/js/main.4daffa9a.js",
+    "static/js/787.d9312eb8.chunk.js": "/static/js/787.d9312eb8.chunk.js",
+    "static/media/rainy_bg.mp4": "/static/media/rainy_bg.3491fdbc09812875f8c5.mp4",
+    "static/media/cloudy-bg.mp4": "/static/media/cloudy-bg.304f0f621cbeb2bd15e8.mp4",
+    "static/media/snowy-bg.mp4": "/static/media/snowy-bg.e99a7d5a6a9fe482cfad.mp4",
+    "static/media/sunny-bg.mp4": "/static/media/sunny-bg.320d99315d826051c503.mp4",
+    "static/media/thunder.mp4": "/static/media/thunder.91ccb55c022f83fb911b.mp4",
+    "static/media/Prata-Regular.ttf": "/static/media/Prata-Regular.2eeab737052a4ae3b2a9.ttf",
+    "index.html": "/index.html",
+    "main.5adde56b.css.map": "/static/css/main.5adde56b.css.map",
+    "main.4daffa9a.js.map": "/static/js/main.4daffa9a.js.map",
+    "787.d9312eb8.chunk.js.map": "/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5adde56b.css",
+    "static/js/main.4daffa9a.js"
+  ]
+}
