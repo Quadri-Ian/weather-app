@@ -68,13 +68,16 @@ const App = () => {
               conditions: data.weather[0].main.toLowerCase(),
             });
             setCity(data.name);
+          })
+          .catch((error) => {
+            console.error(error);
           });
       },
       (error) => {
         console.error(error);
       }
     );
-  }, [apiKey]);
+  }, [apiKey, setWeatherData, setCity]);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -107,11 +110,12 @@ const App = () => {
         <div className=" flex justify-center flex-col items-center">
         <div className="date text-white text-center bg-slate-600 bg-opacity-10 p-1 backdrop-blur-xl rounded drop-shadow-lg  items-center m-3">{dateBuilder(new Date())}</div>
         <div className="city-name text-3xl text-white bg-slate-600 text-center p-1 bg-opacity-10 backdrop-blur-xl rounded drop-shadow-lg  items-center uppercase"> {city} <span className="text-[28px]"><FontAwesomeIcon icon={faLocationDot} /> </span> </div>
-        <div className="text-center">
+        <div className="text-center text-slate-200">
           {weatherData && (
-            <Weather  temperature=
-            <span className="text-white"> {weatherData.temperature}</span>  conditions=
-            <span className="">{weatherData.conditions} </span> />
+            <Weather  
+            temperature=
+              {weatherData.temperature}  conditions=
+             {weatherData.conditions} />
           )}
         </div>          
         </div>
